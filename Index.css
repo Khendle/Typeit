@@ -1,1 +1,43 @@
-
+div#textEditor{
+	margin: 10 auto;
+	width: 560px;
+	height: 310px;
+	padding-left: 20%;
+	
+}
+//Do not forget to make a theme option
+div#theRibbon {
+	border-bottom: none;
+	padding: 25px;
+	background-color: rgb(40,110,89)
+	color: green;
+	border-radius: 20px 20px 0px 0px;
+	border-width: 20px 20px 20px 20px;
+}
+div#theRibbon > button{
+	color: red;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+div#theRibbon > button:hover{
+	background-color: rgb(20, 90, 70);
+	transition: all 0.3s linear 0s;
+}
+input[type="color"]{
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+div#TextAreaMain{
+	border: 2px solid rgb(30, 100, 89);
+	width: 550px;
+	height: 270px;
+	
+}
+iframe#textAreaFrame{
+	height:100%;
+	width: 100%;
+	border:none;
+}
