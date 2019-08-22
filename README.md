@@ -1,5 +1,5 @@
 # Typeit
-A basic desktop site with a text editor that allows you to write text and get a pdf format of the text.
+A basic web app with a text editor that allows you to write text and get a pdf format of the text.
 Made with HTML, javascript and CSS.
 
 Note: The Save as pdf feature has not been implemented yet
